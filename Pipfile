@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow = "==1.12.0"
+keras = "==2.2.4"
+notebook = "*"
+
+[requires]
+python_version = "3.6"
